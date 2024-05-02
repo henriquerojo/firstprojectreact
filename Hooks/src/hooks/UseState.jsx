@@ -1,6 +1,8 @@
+import { useState } from "react";
 const UseState = () => 
 {
-    return(<h1>Vai Corinthians</h1>);
+    const [count, setCount] = useState(0);
+    return(<h1>Vai Corinthians {count}</h1>);
 }
 
 export default UseState;
